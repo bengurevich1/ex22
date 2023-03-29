@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main,header,footer {
+    width: 100%;
+}
+
+article {
+    width: 100%;
+}
+
+header,
+article,
+main,
+footer {
+    display: block;
+}
+
+#logo {
+    position: relative;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40p;
+    width: 39px;
+    left: 40px;
+    top: 41px;
+    display: block;
+    transition: width,height 0.5s ease;
+}
+
+#logo span {
+    position: relative;
+    width: 500px;
+    height: 33px;
+    left: 38px;
+    top: -1px;
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.25em;
+    color: #3E3F43;
+    display: block;
+        transition: font-size 0.5s ease;
+}
+
+
+.portfolio-image {
+    position: absolute;
+    background-color: #F9BDBD;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 555px;
+    left: 0px;
+    top: 123px;
+    display: block;
+}
+
+.portfolio-image img {
+    position: absolute;
+    width: 400px;
+    height: 388px;
+    left: 40px;
+    border-radius: 50px;
+    top: 83px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-image:hover img {
+  transform: scale(1.1) rotate(0.5deg);
+}
+
+
+
+
+
+.opening h2 {
+    position: relative;
+    font-family: 'Nunito', sans-serif; 
+    width: 865px;
+    height: 98px;
+    left: 506px;
+    top: 206px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    display: block;
+}
+.opening span {
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    display: line;
+}
+.opening p {
+    position: relative;
+    width: 448px;
+    height: 66px;
+    left: 506px;
+    top: 197px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 33px;
+    display: block;
+}
+
+.About h2 {
+    position: relative;
+    width: 89px;
+    height: 40px;
+    left: 40px;
+    top: 506px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.About div {
+    position: relative;
+    display: block;
+    left: 40px;
+    right: 419px;
+    top: 530px;
+    width: 741px;
+    height: 394px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: justify;
+    color: #000000;
+}
+
+.Exercises h2 {
+    position: relative;
+    width: 140px;
+    height: 40px;
+    left: 40px;
+    top: 525px;
+    bottom: 1717px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+}
+
+
+.button {
+    position: relative;
+    background-color: #ffffff;
+    width: 120px;
+    height: 40px;
+    left: 24px;
+    top: 184px;
+    display: block;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.button p {
+    background-color: none;
+    position: relative;
+    width: 120px;
+    height: 40px;
+    left: 0px;
+    bottom: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #171F46;
+    margin: auto;
+    padding-top: 8px;
+}
+
+.ex1 {
+    position: relative;
+    left: 40px;
+    right: 960px;
+    top: 565px;
+    bottom: 1429px;
+    Width: 200px;
+    Height: 264px;
+    background: #FDEDE5;
+    border-radius: 20px;
+}
+
+.ex1 .button:hover , .ex2 .button:hover,
+.ex3 .button:hover,
+.ex4 .button:hover,
+.ex5 .button:hover{
+background-color: #171F46;
+}
+.ex1 p:hover{
+
+    color: #FDEDE5;
+}
+.ex2 p:hover {
+    color: #EBF1FF;
+}
+.ex3 p:hover {
+    color: #EBFFEC;
+}
+.ex4 p:hover {
+    color: #FFEBFC;
+}
+.ex5 p:hover {
+    color: #FFFEEB;
+}
+
+.ex2 {
+    position: relative;
+    left: 264px;
+    right: 736px;
+    top: 301px;
+    bottom: 1429px;
+    Width: 200px;
+    Height: 264px;
+    background: #EBF1FF;
+    border-radius: 20px;
+}
+
+.ex3 {
+    position: relative;
+    left: 488px;
+    right: 512px;
+    top: 37px;
+    bottom: 1429px;
+    Width: 200px;
+    Height: 264px;
+    background: #EBFFEC;
+    border-radius: 20px;
+}
+
+.ex4 {
+    position: relative;
+    left: 712px;
+    right: 288px;
+    top: -227px;
+    bottom: 1429px;
+    Width: 200px;
+    Height: 264px;
+    background: #FFEBFC;
+    border-radius: 20px;
+}
+
+.ex5 {
+    position: relative;
+    left: 936px;
+    right: 64px;
+    top: -491px;
+    bottom: 1429px;
+    Width: 200px;
+    Height: 264px;
+    background: #FFFEEB;
+    border-radius: 20px;
+}
+
+
+
+
+.ex1 h2,
+.ex2 h2,
+.ex3 h2,
+.ex4 h2,
+.ex5 h2 {
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 80px;
+    height: 24px;
+    text-align: center;
+    left: 24px;
+    top: 128px;
+    color: #000000;
+}
+
+.ex1 img,
+.ex2 img,
+.ex3 img,
+.ex4 img,
+.ex5 img {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    right: 96px;
+    left: 24px;
+    top: -50px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #D7DFE9;
+    border-radius: 50%;
+    border-color: none;
+
+}
+
+
+.Languages h2 {
+    position: relative;
+    height: 40px;
+    left: 40px;
+    top: -450px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.Languages ul {
+    position: relative;
+    left: 60px;
+    right: 0px;
+    top: -426px;
+    Width: 364px;
+    Height: 141px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 28px */
+
+    text-align: justify;
+}
+
+
+
+footer {
+    position: relative;
+    height: 301px;
+    width: 100%;
+    left: 0px;
+    top: 300px;
+    background-color: #dcdbdbc7;
+}
+
+.Follow {
+    position: relative;
+    left: 40px;
+    top: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.Facebook a,
+.linkedin a,
+.Git a{
+    position: relative;
+    text-decoration:none;
+    color: #8D8D8D;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    transition: color 0.5s ease;
+    transition: font-size 0.5s ease;
+}
+
+.Facebook {
+    position: relative;
+    left: 40px;
+    top: 73px;
+}
+.linkedin {
+    position: relative;
+    left: 40px;
+    top: 89px;
+}
+.Git {
+    position: relative;
+    left: 40px;
+    top: 105px;
+    
+}
+footer h6 {
+    position: relative;
+    left: 40px;
+    top: 175px;
+    font-family: 'Nunito', sans-serif;
+}
+.Facebook a:hover,
+.linkedin a:hover,
+.Git a:hover{
+    color: #000000;
+    font-size: 18px;
+
+}
+
+.backround {
+    /* margin-right: 55%; */
+    /* margin-left: 5%; */
+    position: absolute;
+    background-color: #F9BDBD;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 555px;
+    top: 1900px;
+    display: block;
+}
